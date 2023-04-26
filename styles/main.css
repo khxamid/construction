@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1225px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 74px;
+   
+}
+.list{
+    display: flex;
+    gap: 22px;
+    
+}
+.item{
+    list-style: none;
+
+}
+.links,
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #72787D;
+
+}
+.link:hover{
+    color: #036FC7;
+}
+.links{
+    color: #FFFFFF;
+    background: #212B31;
+    width: 143px;
+    height: 34px;
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+.links:hover{
+    color: #212B31;
+    background: #FFFFFF;
+    border: 1px solid #DADEDF;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.title{
+    font-size: 48px;
+line-height: 64px;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+color: #212B31;
+margin: auto;
+width: 818px;   
+}
+.order{
+    text-align: center;
+    padding: 30px;
+    max-width: max-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+}
+.header__img{
+    width: 1040px;
+height: 328px;
+}
+.main__content{
+    text-align: center;
+}
+.header__imgs{
+    margin-bottom: 148px;
+}
+.main__text{
+   
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #72787D;
+margin-bottom: 40px;
+
+
+}
+.logo1{
+    margin-bottom: 142px;
+}
+.title{
+    margin-bottom: 42px;
+}
+.title2,
+.main__title{
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 48px;
+    font-family: 'Inter';
+    text-align: center;
+    color: #212B31;
+    width: 781px;
+    height: 96px;
+    margin: 0 auto;
+}
+.title2{
+    margin-bottom: 168px;
+    
+}
+.main__work{
+    display: flex; 
+    align-items: center;
+}
+.main__title{
+    font-size: 32px;
+    line-height: 48px;width: 489px;
+    height: 144px;
+    color: #212B31;
+}
+.main__text2{
+    font-size: 20px;
+line-height: 32px;width: 542px;
+height: 96px;
+color: #72787D;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    flex-wrap: wrap;
+}
+.img{
+    margin-bottom: 128px;
+}
